@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+  font-family: Verdana;
+  color: lightcoral;
+} /*I made the header center the pick a font and color that I liked  */
+h2 {
+  text-align: center;
+  color: black;
+} /* Wanted to make different h a different color due to the fact that It may look nice */
+body {
+  background-image: url("../Pictures/background.png");
+  background-size: 1800px 800px;
+  outline: 10px solid aqua;
+  outline-offset: 0px;
+  border-style: inset;
+  border-color: aqua;
+} /* I have imported a background image that goes well with the theme of my website and change the size so it looked nice*/
+img.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} /* made a img with a class called pic so I would have more control on the margins */
+img.map {
+  margin-left: 33%;
+  margin-right: 50%;
+} /* done the same with a img with the class called map */
+p.P1 {
+  color: darkslategray;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Trebuchet MS";
+}
+p.char {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-size-adjust: none;
+}
+
+table,
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 20px;
+  border: 1px skyblue;
+  border-style: inset;
+} /* made a table that have a good amount of spacing*/
+
+th,
+td {
+  background-color: burlywood;
+} /* I want the table background to have some color to highlight the text */
+a.Link {
+  margin-left: 40%;
+}
+img.play {
+  width: 20%;
+  height: auto;
+}
+div {
+  margin-left: 33%;
+  margin-right: 33%;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px outset teal;
+  background-color: bisque;
+} /*  I made it so when you have a div around anything it would create a border that looked nice*/
